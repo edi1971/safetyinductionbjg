@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safety Induction - Stasiun Bojong</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+      margin: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h1 {
+      text-align: center;
+      color: #0a539e;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+      list-style: none;
+    }
+    li img {
+      vertical-align: middle;
+      margin-right: 10px;
+      width: 24px;
+      height: 24px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .important {
+      background: #ffe4e1;
+      padding: 15px;
+      border-left: 5px solid red;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      margin-top: 30px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    label {
+      font-weight: bold;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #0a539e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #083d74;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <h1>SAFETY INDUCTION</h1>
+  <h2 style="text-align:center;">Stasiun Bojong <br>Daop 2 Bandung</h2>
+
+  <div class="section">
+    <h3>1. Tujuan Induksi</h3>
+    <p>Memberikan pemahaman dasar tentang keselamatan dan keamanan kerja bagi semua pengunjung dan pekerja di area Stasiun Bojong.</p>
+  </div>
+
+  <div class="section">
+    <h3>2. Aturan Umum</h3>
+    <ul>
+      <li><img src="https://trumecs.com/timthumb?h=600&src=http://trumecs.com/public/image/artikel/64c9c49448656.jpg" alt="APD">Gunakan Alat Pelindung Diri (APD) sesuai area kerja.</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/No_Smoking.svg/1200px-No_Smoking.svg.png" alt="No Smoking">Dilarang merokok kecuali di area yang diperbolehkan.</li>
+      <li><img src="https://w7.pngwing.com/pngs/408/893/png-transparent-rail-transport-warning-sign-level-crossing-road-polish-angle-triangle-warning-sign.png" alt="Safety Sign">Patuhi rambu-rambu keselamatan di area stasiun.</li>
+      <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPydHlp-2XNjfMnkWbgHhfUddsy03OtOTsZA&s" alt="Lapor">Lapor ke petugas jika melihat potensi bahaya atau kecelakaan.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>3. Prosedur Darurat</h3>
+    <ul>
+      <li><img src="https://png.pngtree.com/png-vector/20220927/ourmid/pngtree-assembly-point-sign-vector-png-image_6219859.png" alt="Evakuasi">Kenali jalur evakuasi dan titik kumpul terdekat.</li>
+      <li><img src="https://pendidikan.karangasemkab.go.id/wp-content/uploads/2022/11/depositphotos_106309014-stock-illustration-exit-sign-to-show-people.webp" alt="Petugas">Ikuti arahan petugas saat keadaan darurat.</li>
+      <li><img src="https://png.pngtree.com/png-vector/20190116/ourmid/pngtree-red-fire-extinguisher-pressure-dial-black-pipe-black-handle-png-image_401520.jpg" alt="APAR">Gunakan APAR jika terjadi kebakaran kecil, hanya jika terlatih.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>4. Video Area Stasiun Bojong</h3>
+    <p>Silakan tonton video pengenalan area dan ruangan yang ada di Stasiun Bojong melalui video berikut:</p>
+    <iframe src="https://www.youtube.com/embed/X02wnLBkxqo?si=99WVgd6ACnHRgV0x" title="Video Induksi Stasiun Bojong" allowfullscreen></iframe>
+  </div>
+
+  <div class="section">
+    <h3>5. Form Persetujuan dan Daftar Hadir</h3>
+    <form name="persetujuan" method="POST" data-netlify="true" enctype="multipart/form-data" action="/terimakasih.html">
+      <input type="hidden" name="form-name" value="persetujuan">
+
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="nipp">NIPP:</label>
+      <input type="text" id="nipp" name="nipp" required>
+      
+      <label for="nohp">No HP:</label>
+      <input type="tel" id="nohp" name="nohp" required>
+
+      <label for="instansi">Instansi/Perusahaan:</label>
+      <input type="text" id="instansi" name="instansi">
+
+      <label for="tanggal">Tanggal:</label>
+      <input type="date" id="tanggal" name="tanggal" required>
+
+      <label for="ttd">Tanda Tangan Digital (Upload Foto Tanda Tangan):</label>
+      <input type="file" id="ttd" name="ttd" accept="image/*" required>
+
+      <label>
+        <input type="checkbox" name="setuju" required> Saya telah membaca dan memahami semua instruksi keselamatan di atas.
+      </label>
+
+      <br><br>
+      <button type="submit">Kirim Persetujuan</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Stasiun Bojong | Departemen K3
+  </div>
+</div>
+
+</body>
+</html>
